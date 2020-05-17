@@ -27,17 +27,60 @@ body{
     position: absolute;
     top: 100px;
     align-self: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
+
+.header-image{
+    position: absolute;
+    top: 300px;
+    align-self: center;
+    width: 150px;
+    border-radius: 100%;
 }
 .header-buttons{
     position: absolute;
-    top: 400px;
+    top: 470px;
     align-self: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fab{
+    color: #faf2f2;
+    font-size: 40px;
+    margin: 10px;
+}
+.fab:hover{
+    color: #d3f4ff;
+    font-size: 45px;
+    margin: 7px
+
 }
 .header-bottom{
     position: absolute;
-    bottom: 100px;
+    bottom: 20px;
     align-self: center;
 }
+.button{
+    border: 0;
+    background: #142850;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.button:hover{
+    border: 0;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 150px #2196f3;
+
+    background: #4d4c7d;
+}
+
+
 .info{
     position: absolute;
     top: 50%;
@@ -52,17 +95,25 @@ a{
 } 
 
 
-.text{
-    color: green;
+.header-title .text{
+    color: white;
     font-family: 'Cabin', sans-serif;
 }
+
+.header-title .text:hover{
+    color: red;
+    font-family: 'Cabin', sans-serif;
+}
+
+
+
 
 #content{
     position: relative;
     margin: 0;
     width: 100%;
     min-height: 100vh;
-    background: #1b262c;
+    background-image: -webkit-radial-gradient(#43d8c9 , #2c003e );
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -99,14 +150,8 @@ a{
 
 }
 
-.social-media-img{
-    width: 50px;
-    height: 50px;
-}
-.social-media-img:hover{
-    background-color: lightblue;
-    border-radius: 20px;
-}
+
+
 
 hr{
     border-style: solid none none none; 
@@ -115,9 +160,7 @@ hr{
     border-color: white;
 }
 
-button:hover{
-    background: #8ec6c5;
-}
+
 .footer{
     width: 100%;
     height: 30vh;
