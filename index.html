@@ -18,7 +18,14 @@
 
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+      
     <!-- Fontawesome link -->
     <script src="https://kit.fontawesome.com/6e9ec5ba9b.js" crossorigin="anonymous"></script>
 
@@ -29,131 +36,97 @@
     
 </head>
 <body>
-    
-    <div class='header'>
-            <img class="header-img" src="images/dark-forest.jpg" alt="">
 
-            <div class="header-top"> 
-                <a class="text" href="">Blog</a>
+
+
+    <header class="masthead" style="background-image: url('images/dark-forest.jpg')">
+          <!-- Navigation -->
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+              <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                  </li>
+          
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">switch</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </nav>
 
-            <div class="header-title">
-                <hr>
+
+
+
+
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="site-heading">
                 <h1 class="text">Javier Agustin Fernandez</h1>
                 <h3 class="text">Desarrollador fullstack</h3>
-                <p class="text">
-                    ¡Hola! Soy un desarrollador autodidacta. Desarrollo tanto el front-end como el back-end, pero mi 
-                    fuerte es el back-end. Tengo otros intereses ademas del desarrollo web, como Data Analyst y Data Science.
-                </p>
-                 <hr>
-            </div>
-
-            <img class="header-image" src="images/me.jpg" alt="">
-
-            
-            <div class="header-buttons">
-                    <a href="https://github.com/javier-a-agustin">
-                        <i class="fab fa-github"></i>
-                    </a>
-        
-
-                    <a href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-4a92b2172/">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
                 
-        
-                    <a href="https://twitter.com/Javivar022">
-                        <i class="fab fa-twitter"></i>
-                    </a>
+                  <p class="description">
+                    ¡Hola! Soy un programador autodidacta. Actualmente me encuentro estudiando en la U.N.P.S.J.B. Mis intereses principales
+                    son desarrollo web, data science y machine learning.
+                  </p>
                 
-            </div>
-            
-            <div class="header-bottom">
-
-                    <a  href="#content"><button type="button" class="button"> Ver proyectos</button></a>
-
-            </div>
-            
-
-       
-
-    </div>
-
-
-
-    <div id='content'>
-
-        <div class="project row">
-            <div class="col-lg-6 col-md-12 col-sm-12 project-description">
-                <h1>To do list</h1>
-                <p>
-                    Una lista basica de tareas. Consta de fecha, añadimiento de tareas, tachado de tareas y eliminacion total.
-                </p> 
-                <p>
-                    Tecnologias usadas: HTML, CSS, Python: Flask.
-                </p>        
-                <div class="buttons">
-                    <button class="project-button"> <a href="https://lista-tareas-to-do-list.herokuapp.com/">Ver proyecto</a></button>
-                    <button class="project-button"><a href="https://github.com/javier-a-agustin/to-do-list">Ver codigo</a></button>
-                </div>       
                 
+                <img class="header-image" src="images/me.jpg" alt="">
+
+                <div class="social-media">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-10 mx-auto">
+                        <ul class="list-inline text-center">
+                          <li class="list-inline-item">
+                            <a href="https://twitter.com/Javivar022">
+                              <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle  fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                              </span>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-4a92b2172/">
+                              <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                              </span>
+              
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://github.com/javier-a-agustin">
+                              <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                              </span>
+                            </a>
+                          </li>
+                        </ul>
+                        <a  href="#content"><button type="button" class="button"> Ver proyectos</button></a>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
             </div>
-            
-            <div class="col-lg-6 col-md-12 col-sm-12 imagen">
-                <img class="img" src="images/list-app.png" alt="">
-            </div>
-        </div>
+          </div>
+     
+      </header>
 
 
-        <div class="project row">
-            <div class="col-lg-6 col-md-12 col-sm-12 project-description">
-                <h1>Basic description page</h1>
-                <p>
-                    Una pagina basica de descripcion, en este caso usando a una mascota. Consta de cuatro vistas las cuales 
-                    se puede acceder desde cada vista individual.
-                </p> 
-                <p>
-                    Tecnologias usadas: HTML, CSS, Bootstrap.
-                </p>        
-                <div class="buttons">
-                    <button class="project-button"> <a href="https://javier-a-agustin.github.io/CS50-s-Web-Programming-with-Python-and-JavaScript-project0/">Ver proyecto</a></button>
-                    <button class="project-button"><a href="https://github.com/javier-a-agustin/CS50-s-Web-Programming-with-Python-and-JavaScript-project0">Ver codigo</a></button>
-                </div>       
-                
-            </div>
-            
-            <div class="col-lg-6 col-md-12 col-sm-12 imagen">
-                <img class="img" src="images/description-page.png" alt="">
-            </div>
-        </div>
 
-        <div class="project row">
-            <div class="col-lg-6 col-md-12 col-sm-12 project-description">
-                <h1>Basic description page</h1>
-                <p>
-                    Una pagina basica de descripcion, en este caso usando a una mascota. Consta de cuatro vistas las cuales 
-                    se puede acceder desde cada vista individual.
-                </p> 
-                <p>
-                    Tecnologias usadas: HTML, CSS, Bootstrap.
-                </p>        
-                <div class="buttons">
-                    <button class="project-button"> <a href="https://javier-a-agustin.github.io/CS50-s-Web-Programming-with-Python-and-JavaScript-project0/">Ver proyecto</a></button>
-                    <button class="project-button"><a href="https://github.com/javier-a-agustin/CS50-s-Web-Programming-with-Python-and-JavaScript-project0">Ver codigo</a></button>
-                </div>       
-                
-            </div>
-            
-            <div class="col-lg-6 col-md-12 col-sm-12 imagen">
-                <img class="img" src="images/description-page.png" alt="">
-            </div>
-        </div>
-
-    </div>
     
-    <div class="footer">
-        <h2>Javier Fernandez 2020</h2>
-    </div>
     
 
 </body>
