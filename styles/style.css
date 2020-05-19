@@ -32,12 +32,11 @@ header.masthead .site-heading {
   
     color: #f3f3f3;
     text-align: center;
-    margin-top: 20px;
 }
 
 @media (max-width: 950px) {
     .masthead{
-        height: 100vh;
+        height: 110vh;
         padding-top: 50px;
     }
     #mainNav .container .collapse ul li a{
