@@ -56,6 +56,7 @@ header.masthead .site-heading {
 
     }
 }
+
 @media  (max-width: 950px) {
     .masthead{
         height: 110vh;
@@ -84,12 +85,6 @@ header.masthead .site-heading {
     }
 }
 
-@media  (max-height: 300px){
-    header{
-        height: 500px;
-    }
-    
-}
 
 .description{
     max-width: 900px;
@@ -117,6 +112,7 @@ header .row{
 #mainNav .container .collapse ul li a:hover{
     color: #0779e4;
     border: 2px solid white;
+    transition: all 0.75s;
 }
 
   
