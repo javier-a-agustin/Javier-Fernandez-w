@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" data-theme="light">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javier Fernandez</title>
 
@@ -39,7 +39,7 @@
 
 
 
-    <header class="masthead" style="background-image: url('images/dark-forest.jpg')">
+    <header class="masthead" style="background-image: url('images/dark-forest.jpg'); min-height: 500px;">
           <!-- Navigation -->
           <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
@@ -50,16 +50,15 @@
 
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
+
                   <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
                   </li>
+
                   <li class="nav-item">
                     <a class="nav-link" href="#">Resume</a>
                   </li>
-          
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">switch</a>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -76,7 +75,7 @@
                 <h3 class="text">Desarrollador fullstack</h3>
                 
                   <p class="description">
-                    ¡Hola! Soy un programador autodidacta. Actualmente me encuentro estudiando en la U.N.P.S.J.B. Mis intereses principales
+                    ¡Hola! Soy un programador autodidacta. Actualmente me encuentro estudiando APU y Lic. en Sistemas en la U.N.P.S.J.B. Mis intereses principales
                     son desarrollo web, data science y machine learning.
                   </p>
                 
@@ -113,7 +112,7 @@
                             </a>
                           </li>
                         </ul>
-                        <a  href="#content"><button type="button" class="button"> Ver proyectos</button></a>
+                        <a id="button" href="#content-body"><button type="button" class="button"> Ver proyectos</button></a>
                       </div>
                     </div>
                   </div>
@@ -121,13 +120,41 @@
               </div>
             </div>
           </div>
-     
       </header>
 
 
+      <div id="content-body">
+        <div class="row justify-content-around content-body">
+          <div class="col-lg-5 col-md-8 col-sm-12 content">
 
-    
-    
+          </div>
+
+          <div class="col-lg-5 col-md-8 col-sm-12 content">
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="footer">
+        <p>Contactame</p>
+        <p>redireccion a gmail</p>
+      </div>
+
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+      <script>
+        $(function(){
+          $("#button").on('click', function(){
+            $("html, body").animate({
+              scrollTop: $($.attr(this, 'href')).offset().top
+            }, 750);
+          });
+        });
+      </script>
 
 </body>
 </html> 
