@@ -40,8 +40,10 @@ header.masthead .site-heading {
 
 @media  (max-width: 950px) {
   .masthead{
-    height: 100vh;
-    padding-top: 10px;
+    padding-top: 60px;
+  }
+  .header-image{
+    width: 100px;
   }
   .content img{
       width: 400px;
@@ -73,17 +75,17 @@ header .row{
     margin-left: 0px;
 }
 a .button{
-    padding: 0.5em 3em;
-    border: 0.13em solid #283148;
-    box-sizing: border-box;
-    background-color: transparent;
-    text-transform: uppercase;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
-    font-size: 1.1em;
-    color: #283148;
-    text-align: center;
-    transition:all 1s ;
+  padding: 0.5em 3em;
+  border: 0.13em solid #283148;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 1.1em;
+  color: #283148;
+  text-align: center;
+  transition:all 1s ;
 }
 a .button:hover{
     color: #343a40;
