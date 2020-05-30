@@ -39,20 +39,25 @@ header.masthead .site-heading {
 }
 
 @media  (max-width: 950px) {
+  .masthead{
+    height: 100vh;
+    padding-top: 10px;
+  }
   .content img{
       width: 400px;
   }
+
+  
   .button-content{
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       
-      padding-bottom: 100px;
+      padding-bottom:50px;
   }
   .content{
       border-bottom: 1px solid black;
-      height: 700px;
   }
 
 }
@@ -103,10 +108,8 @@ a .button:active{
     margin-left: 10px;
 }
 
-.content{
-  height: 65vh;
-  min-height: 400px;
-
+.content{ 
+  min-height: 55vh;
   margin-left: 3%;
   display: flex;
   flex-direction: column;
