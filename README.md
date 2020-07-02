@@ -11,6 +11,6 @@ My portfolio, which shows the most significant projects finished so far.
 ### Characteristics  
 It has two views: One in English and other in Spanish.  
 Each view has a resume in its own language.  
-Inside of the views there are four sections. The header has a brief description, a picture and links to github, linkedIn and gmail. The skills section has a table with the technical skill more relevants. The projects section has the most significant projects finished so far. The footer section has contact links.  
+Inside of the views there are four sections. The header has a brief description, a picture and links to github, linkedIn and gmail. The skills section has a table with the technical skills more relevant. The projects section has the most significant projects finished so far. The footer section has contact links.  
   
 You can see my portfolio going to this link: https://javier-a-agustin.github.io/Javier-Fernandez-w/ 
