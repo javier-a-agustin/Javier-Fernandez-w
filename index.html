@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8" data-theme="light">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" data-theme="light" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Javier Fernandez</title>
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Cabin|Hind|Roboto+Condensed|Ubuntu|Varela+Round&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Cabin|Hind|Roboto+Condensed|Ubuntu|Varela+Round&display=swap"
+      rel="stylesheet"
+    />
     <!-- font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Ubuntu', sans-serif;
     font-family: 'Hind', sans-serif;
@@ -14,309 +17,459 @@
     font-family: 'Varela Round', sans-serif; -->
 
     <!-- CSS styles -->
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style.css" />
 
     <!-- Bootstrap link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <!-- CSS only -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
 
-  <!-- JS, Popper.js, and jQuery -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-      
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Fontawesome link -->
-    <script src="https://kit.fontawesome.com/6e9ec5ba9b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/6e9ec5ba9b.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Icon link -->
-    <link rel="icon" href="images/icon.svg">
+    <link rel="icon" href="images/icon.svg" />
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#header">Home</a>
+            </li>
 
-    
-</head>
-<body>
-  
-<!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-  <div class="container">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
-      <i class="fas fa-bars"></i>
-    </button>
+            <li class="nav-item">
+              <a class="nav-link" href="views/index-es.html">Version Español</a>
+            </li>
 
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#header">Home</a>
-        </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#content-body">Projects</a>
+            </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="views/index-es.html">Version Español</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">Skills</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#content-body">Projects</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" target="_blank" href="Javier Fernandez Resume.pdf" download="">Resume</a>
-        </li>
-
-      </ul>
-    </div>
-  </div>
-</nav>
-
-
-    <header id="header" class="masthead" style="background-image: url('images/bl.jpg');">
-          <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto">
-              <div class="site-heading">
-                <h1 class="text">Javier Agustin Fernandez</h1>
-                <h3 class="text">Full Stack Developer</h3>
-                
-                <p class="description">
-                  ¡Hi! i am a software developer. Currently i'm studying APU and bachelor of Systems at U.N.P.S.J.B. My interests are
-                   web development, data science and machine learning.
-                  
-                </p>
-                
-                
-                <img class="header-image" src="images/me.jpg" alt="">
-
-                <div class="social-media">
-                    <div class="row">
-                      <div class="col-lg-8 col-md-10 mx-auto">
-                        <ul class="list-inline text-center">
-                          <li class="list-inline-item">
-                            
-                            <a target="_blank" href="mailto:22.javier.fernandez@gmail.com">
-                              <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle  fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                              </span>
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a target="_blank" href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-4a92b2172/">
-                              <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                              </span>
-              
-                            </a>
-                          </li>
-                          <li class="list-inline-item">
-                            <a target="_blank" href="https://github.com/javier-a-agustin">
-                              <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                              </span>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  
-              </div>
-            </div>
-            
-          </div>
-      </header>
-      
-<div id="skills">
-  <div class="row">
-    
-    <div class="col-lg-11 col-md-11">
-      <h1><i class="far fa-check-circle"></i>Skills</h1>
-    </div>
-
-    <div class="col-lg-11 col-md-11">
-      <table class="table table-borderless">
-        <thead class="cabecera-tabla">
-          <tr>
-            <th scope="col">Front-end</th>
-            <th scope="col">Back-end</th>
-            <th scope="col">Others</th>
-          </tr>
-        </thead>
-      <tbody>
-        <tr>
-          <td>HTML <i class="fab fa-html5"></i></td>
-          <td>Python: Flask <i class="fab fa-python"></i></td>
-          <td>Git</td>
-        </tr>
-        <tr>
-          <td>CSS <i class="fab fa-css3-alt"></i> / SASS <i class="fab fa-sass"></i></td>
-          <td>Javascript: Node.js <i class="fab fa-node"></i></td>
-          <td>Pandas, Plotly</td>
-          
-        </tr>
-        <tr>
-          <td>Javascript <i class="fab fa-js-square"></i></td>
-          <td></td>
-          <td>SQL</td>
-        </tr>
-        <tr>
-          <td>Bootstrap</td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-      </table>
-    </div>
-  </div>
-
-</div>
-
-      <div id="content-body">
-        <h1><i class="far fa-check-circle"></i>Projects</h1>
-        <div class="row justify-content-around content-body">
-          <div class="col-lg-5 col-md-8 col-sm-12 content">
-
-            <img class="img-fluid img-thumbnail" src="images/js-projects.png" alt="Js projects">
-            <p>
-              Set of projects to learn Javascript
-            </p>
-            <div>
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-html5"></i>
-              </span>
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-css3-alt"></i>
-              </span>
-
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-js"></i>
-              </span>
-            </div>
-
-            <div class="button-content">
-              <a target="_blank" href="https://javier-a-agustin.github.io/javascript-projects/"><button class="button">See project</button></a>
-              <a target="_blank" href="https://github.com/javier-a-agustin/javascript-projects"><button class="button">See code</button></a>
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 col-md-8 col-sm-12 content">
-                <img class="img-fluid img-thumbnail image" src="images/list-app.png" alt="To-Do list">
-                <p>
-                  To Do list. Add, mark and delete items in a list. No responsive.
-                </p>
-
-              <div>
-                <span class="fa-stack fa-lg">
-                  <i class="fab fa-html5"></i>
-                </span>
-                <span class="fa-stack fa-lg">
-                  <i class="fab fa-css3-alt"></i>
-                </span>
-                <span class="fa-stack fa-lg">
-                  <i class="fab fa-python"></i>
-                </span>
-              </div>
-
-              <div class="button-content">
-                <a target="_blank" href="https://lista-tareas-to-do-list.herokuapp.com/"><button class="button">See project</button></a>
-                <a target="_blank" href="https://github.com/javier-a-agustin/to-do-list"><button class="button">See code</button></a>
-              </div>
-          </div>
-
-          <div class="col-lg-5 col-md-8 col-sm-12 content">
-
-            <img class="img-fluid img-thumbnail" src="images/description-page.png" alt="Description page">
-            <p>
-              Basic description page with four views. Responsive
-            </p>
-            <div>
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-html5"></i>
-              </span>
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-css3-alt"></i>
-              </span>
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-bootstrap"></i>
-              </span>
-              <span class="fa-stack fa-lg">
-                <i class="fab fa-sass"></i>
-              </span>
-            </div>
-
-            <div class="button-content">
-              <a target="_blank" href="https://javier-a-agustin.github.io/CS50-s-Web-Programming-with-Python-and-JavaScript-project0/"><button class="button">See project</button></a>
-              <a target="_blank" href="https://github.com/javier-a-agustin/CS50-s-Web-Programming-with-Python-and-JavaScript-project0"><button class="button">See code</button></a>
-            </div>
-
-          </div>
-
-          
-
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                target="_blank"
+                href="Javier Fernandez Resume.pdf"
+                download=""
+                >Resume</a
+              >
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
 
+    <header
+      id="header"
+      class="masthead"
+      style="background-image: url('images/bl.jpg');"
+    >
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="site-heading">
+            <h1 class="text">Javier Agustin Fernandez</h1>
+            <h3 class="text">Full Stack Developer</h3>
 
-  <div id="footer">
-    <div>
-    <p>
-      You can contact me here: <a href="mailto:22.javier.fernandez@gmail.com">22.javier.fernandez@gmail.com</a> 
-    </p>
-  </div>
+            <p class="description">
+              ¡Hi! i am a software developer. Currently i'm studying APU and
+              bachelor of Systems at U.N.P.S.J.B. My interests are web
+              development, data science and machine learning.
+            </p>
 
-    <div class="social-media">
-              
-              <a target="_blank" href="mailto:22.javier.fernandez@gmail.com">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle  fa-stack-2x"></i>
-                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-              <a target="_blank" href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-4a92b2172/">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-              <a target="_blank" href="https://github.com/javier-a-agustin">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
+            <img class="header-image" src="images/me.jpg" alt="" />
+
+            <div class="social-media">
+              <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                  <ul class="list-inline text-center">
+                    <li class="list-inline-item">
+                      <a
+                        target="_blank"
+                        href="mailto:22.javier.fernandez@gmail.com"
+                      >
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-4a92b2172/"
+                      >
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        target="_blank"
+                        href="https://github.com/javier-a-agustin"
+                      >
+                        <span class="fa-stack fa-lg">
+                          <i class="fas fa-circle fa-stack-2x"></i>
+                          <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="skills">
+      <div class="row">
+        <div class="col-lg-11 col-md-11">
+          <h1><i class="far fa-check-circle"></i>Skills</h1>
+        </div>
+
+        <div class="col-lg-11 col-md-11">
+          <table class="table table-borderless">
+            <thead class="cabecera-tabla">
+              <tr>
+                <th scope="col">Front-end</th>
+                <th scope="col">Back-end</th>
+                <th scope="col">Others</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>HTML <i class="fab fa-html5"></i></td>
+                <td>Flask <i class="fab fa-python"></i></td>
+                <td>Git</td>
+              </tr>
+              <tr>
+                <td>
+                  CSS <i class="fab fa-css3-alt"></i> / SASS
+                  <i class="fab fa-sass"></i>
+                </td>
+                <td>Django <i class="fab fa-python"></i></td>
+                <td>Pandas, Plotly</td>
+              </tr>
+              <tr>
+                <td>Javascript <i class="fab fa-js-square"></i></td>
+                <td></td>
+                <td>SQL</td>
+              </tr>
+              <tr>
+                <td>Bootstrap</td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-    <div>
-      <p>
-        <i class="far fa-copyright"></i>2020 Javier Fernandez
-      </p>
+
+    <div id="content-body">
+      <h1><i class="far fa-check-circle"></i>Projects</h1>
+      <div class="row justify-content-around content-body">
+        <div class="col-lg-5 col-md-8 col-sm-12 content">
+          <a href="https://blog-jf.herokuapp.com/" target="_blank"><img class="img-fluid" id="imagen" src="images/blog.png" alt="Blog" /></a>
+          <p>
+            Blog with dark theme.
+          </p>
+
+          <div>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-html5"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-css3-alt"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-python"></i>
+            </span>
+          </div>
+
+          <div class="button-content">
+            <a target="_blank" href="https://blog-jf.herokuapp.com/"
+              ><button class="button">See project</button></a
+            >
+            <a target="_blank" href="https://github.com/javier-a-agustin/blog"
+              ><button class="button">See code</button></a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8 col-sm-12 content">
+          <a target="_blank" href="https://buscador-libros.herokuapp.com/"">
+            <img
+            class="img-fluid"
+            id="imagen"
+            src="images/buscar.png"
+            alt="Books review"
+          />
+          </a>
+          
+          <p>
+            Books review
+          </p>
+
+          <div>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-html5"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-css3-alt"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-python"></i>
+            </span>
+          </div>
+
+          <div class="button-content">
+            <a target="_blank" href="https://buscador-libros.herokuapp.com/"
+              ><button class="button">See project</button></a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/javier-a-agustin/review-de-libros-Flask"
+              ><button class="button">See code</button></a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8 col-sm-12 content">
+          <a target="_blank" href="https://javier-a-agustin.github.io/javascript-projects/">
+            <img
+            class="img-fluid"
+            id="imagen"
+            src="images/js-projects.png"
+            alt="Js projects"
+          />
+          </a>
+          
+          <p>
+            Set of projects to learn Javascript
+          </p>
+          <div>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-html5"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-css3-alt"></i>
+            </span>
+
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-js"></i>
+            </span>
+          </div>
+
+          <div class="button-content">
+            <a
+              target="_blank"
+              href="https://javier-a-agustin.github.io/javascript-projects/"
+              ><button class="button">See project</button></a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/javier-a-agustin/javascript-projects"
+              ><button class="button">See code</button></a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8 col-sm-12 content">
+          <a
+            target="_blank"
+            href="https://lista-tareas-to-do-list.herokuapp.com/"
+            ><img
+              class="img-fluid"
+              id="imagen"
+              src="images/list-app.png"
+              alt="To-Do list"
+          /></a>
+
+          <p>
+            To Do list. Add, mark and delete items in a list. 
+          </p>
+
+          <div>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-html5"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-css3-alt"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-python"></i>
+            </span>
+          </div>
+
+          <div class="button-content">
+            <a
+              target="_blank"
+              href="https://lista-tareas-to-do-list.herokuapp.com/"
+              ><button class="button">See project</button></a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/javier-a-agustin/to-do-list"
+              ><button class="button">See code</button></a
+            >
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-8 col-sm-12 content">
+          <a target="_blank" href="https://javier-a-agustin.github.io/CS50-s-Web-Programming-with-Python-and-JavaScript-project0/">
+            <img
+            class="img-fluid"
+            id="imagen"
+            src="images/description-page.png"
+            alt="Description page"
+          />
+          </a>
+          
+          <p>
+            Basic description page with four views. Responsive
+          </p>
+          <div>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-html5"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-css3-alt"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-bootstrap"></i>
+            </span>
+            <span class="fa-stack fa-lg">
+              <i class="fab fa-sass"></i>
+            </span>
+          </div>
+
+          <div class="button-content">
+            <a
+              target="_blank"
+              href="https://javier-a-agustin.github.io/CS50-s-Web-Programming-with-Python-and-JavaScript-project0/"
+              ><button class="button">See project</button></a
+            >
+            <a
+              target="_blank"
+              href="https://github.com/javier-a-agustin/CS50-s-Web-Programming-with-Python-and-JavaScript-project0"
+              ><button class="button">See code</button></a
+            >
+          </div>
+        </div>
+      </div>
     </div>
-    
-  </div>
 
-<style>
-  
-</style>
+    <div id="footer">
+      <div>
+        <p>
+          You can contact me here:
+          <a href="mailto:22.javier.fernandez@gmail.com"
+            >22.javier.fernandez@gmail.com</a
+          >
+        </p>
+      </div>
 
+      <div class="social-media">
+        <a target="_blank" href="mailto:22.javier.fernandez@gmail.com">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/javier-fern%C3%A1ndez-4a92b2172/"
+        >
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+        <a target="_blank" href="https://github.com/javier-a-agustin">
+          <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+        </a>
+      </div>
+      <div>
+        <p><i class="far fa-copyright"></i>2020 Javier Fernandez</p>
+      </div>
+    </div>
 
+    <style></style>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-      <script>
-        $(function(){
-          $(".nav-link").on('click', function(){
-            $("html, body").animate({
-              scrollTop: $($.attr(this, 'href')).offset().top
-            }, 750);
-          });
+    <script>
+      $(function () {
+        $(".nav-link").on("click", function () {
+          $("html, body").animate(
+            {
+              scrollTop: $($.attr(this, "href")).offset().top,
+            },
+            750
+          );
         });
-      </script>
-
-</body>
-</html> 
+      });
+    </script>
+  </body>
+</html>
